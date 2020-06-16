@@ -687,13 +687,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .clients__item {
   flex: 1 1 0;
-  padding-left: 14%;
-  padding-right: 35px;
+  padding-left: 130px;
+  padding-right: 30px;
   position: relative;
 }
 
 .clients__icon {
- 
   border: 2px solid #95e1d3;
   border-radius: 50%;
   
@@ -704,7 +703,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients__title {
-  
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -726,7 +724,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 3px;
   display: block;
   text-align: left;
-  margin: 30px auto;
+  margin: 20px auto;
+ 
   margin-left: 1px;
 
   background-color: rgb(160, 44, 9);
@@ -734,7 +733,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .clients__write {
   font-size: 14px;
-  color: silver;
+  color: #756967;
 }
 
 
