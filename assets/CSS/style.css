@@ -693,7 +693,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients__icon {
- 
   border: 2px solid #95e1d3;
   border-radius: 50%;
   
@@ -704,7 +703,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients__title {
-  
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -727,6 +725,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   text-align: left;
   margin: 20px auto;
+ 
   margin-left: 1px;
 
   background-color: rgb(160, 44, 9);
