@@ -711,7 +711,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clients__text {
-
   font-size: 15px;
   font-style: italic;
   font-weight: 300;
@@ -736,7 +735,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #756967;
 }
 
-
 .section--clients__wall {
   width: 100%;
   position: absolute;
@@ -748,11 +746,157 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
 }
 
+/* Blog */
+
+.blog {
+  display: flex;
+}
+
+.blog__header {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.blog__photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.blog__date {
+  padding: 10px 20px;
+  background-color: #95e1d3;
+
+  font-size: 15px;
+  font-style: italic;
+  color: #fff;
+  font-weight: 300;
+
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+}
+
+.blog__date-day {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+}
+
+.blog__content {
+  margin-bottom: 10px;
+}
+
+.blog__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.blog__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog__title a:hover {
+  text-decoration: underline;
+}
+
+.blog__text {
+  font-size: 15px;
+  color: #999999;
+}
+
+.blog__footer {
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5;
+
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+}
+
+.blog__stat__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.blog__stat__item i {
+  color: #95e1d3;
+}
+
+/*Location*/
+
+.section--maps {
+  width: 100%;
+  position: absolute;
+  
+  
+  padding-bottom: 0;
+  background: url("../images/map-bg.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+  
+  opacity: 0.6;;
+}
 
 
+.maps {
+  display: flex;
+  justify-content: center;
 
+}
 
+.map__logos {
+  height: 9em;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+}
 
+.map__item {
+font-size: 20px;
+margin: 10px;
+color: red;
+margin-left: 40%;
 
+}
 
+.map__content {
+margin-bottom: 10px;
+}
 
+.map__title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+.map__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.map__title a:hover {
+  text-decoration: underline;
+}
+
+.map__title::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  display: block;
+  text-align: center;
+  
+  margin: 20px ;
+ 
+  
+
+  background-color: #ff0000;
+}
